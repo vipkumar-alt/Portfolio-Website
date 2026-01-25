@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vipul's Portfolio</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<header class="header">
+  <h2 class="logo">Vipul</h2>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero reveal">
+  <h2>Hello, I'm <span>Vipul</span></h2>
+  <p>Fullstack Developer | Problem Solver</p>
+  <a href="#projects" class="btn">View My Work</a>
+</section>
+
+<section id="about" class="section reveal">
+  <h2>About Me</h2>
+  <p>I am a passionate fullstack developer who enjoys building clean, user-friendly, and responsive websites. I love turning ideas into real-world digital experiences.</p>
+</section>
+
+<section id="projects" class="section reveal">
+  <h2>Projects</h2>
+  <div class="projects-container">
+    <div class="project-card reveal">
+      <h3>Finlog</h3>
+      <p>Expense Tracking Application</p>
+      <a href="https://fin-log.vercel.app/login" target="_blank">View</a>
+    </div>
+
+    <div class="project-card reveal">
+      <h3>Campus Utility Platform</h3>
+      <p>College utilities platform</p>
+      <a href="https://bitkit-green.vercel.app/" target="_blank">View</a>
+    </div>
+
+    <div class="project-card reveal">
+      <h3>Career Connect</h3>
+      <p>Web-based job portal</p>
+      <a href="https://job-portal-six-delta.vercel.app/login" target="_blank">View</a>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="section reveal">
+  <h2>Skills</h2>
+
+  <div class="skills-category">
+    <h3>Programming Languages</h3>
+    <div class="skill reveal">
+      <span>C++</span>
+      <div class="progress-bar">
+        <div class="progress cpp"><span class="percent">85%</span></div>
+      </div>
+    </div>
+
+    <div class="skill reveal">
+      <span>JavaScript</span>
+      <div class="progress-bar">
+        <div class="progress js"><span class="percent">80%</span></div>
+      </div>
+    </div>
+
+    <div class="skill reveal">
+      <span>SQL</span>
+      <div class="progress-bar">
+        <div class="progress sql"><span class="percent">75%</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="skills-category">
+    <h3>Web Technologies</h3>
+    <div class="skill reveal">
+      <span>HTML</span>
+      <div class="progress-bar">
+        <div class="progress html"><span class="percent">90%</span></div>
+      </div>
+    </div>
+
+    <div class="skill reveal">
+      <span>CSS</span>
+      <div class="progress-bar">
+        <div class="progress css"><span class="percent">85%</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="skills-category">
+    <h3>Frameworks & Libraries</h3>
+    <div class="skill reveal">
+      <span>React</span>
+      <div class="progress-bar">
+        <div class="progress react"><span class="percent">78%</span></div>
+      </div>
+    </div>
+
+    <div class="skill reveal">
+      <span>Node.js</span>
+      <div class="progress-bar">
+        <div class="progress node"><span class="percent">72%</span></div>
+      </div>
+    </div>
+
+    <div class="skill reveal">
+      <span>Express.js</span>
+      <div class="progress-bar">
+        <div class="progress express"><span class="percent">70%</span></div>
+      </div>
+    </div>
+
+    <div class="skill reveal">
+      <span>Redux Toolkit</span>
+      <div class="progress-bar">
+        <div class="progress redux"><span class="percent">70%</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="skills-category">
+    <h3>Databases & Tools</h3>
+    <div class="skill reveal">
+      <span>MongoDB</span>
+      <div class="progress-bar">
+        <div class="progress mongo"><span class="percent">65%</span></div>
+      </div>
+    </div>
+
+    <div class="skill reveal">
+      <span>GitHub</span>
+      <div class="progress-bar">
+        <div class="progress git"><span class="percent">80%</span></div>
+      </div>
+    </div>
+
+    <div class="skill reveal">
+      <span>Postman</span>
+      <div class="progress-bar">
+        <div class="progress postman"><span class="percent">75%</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section reveal">
+  <h2>Contact Me</h2>
+  <form class="contact-form reveal">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer class="footer reveal">
+  <p>© <span id="year"></span> Vipul. All rights reserved.</p>
+</footer>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>
