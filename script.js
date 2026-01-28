@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
       animateSkills();
       skillsObserver.disconnect();
     }
-  }, { threshold: 0.4 });
+  }, { threshold: 0.1 });
 
   skillsObserver.observe(skillsSection);
 
