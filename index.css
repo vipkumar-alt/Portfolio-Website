@@ -107,22 +107,30 @@ h2 {
   font-size: 28px;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 1px solid black;
+  /* border-right: 1px solid black; */
   width: 0;
-  animation: typing 1.5s steps(32, end) forwards,
-             removeCursor 0s linear 1.5s forwards;
+  animation: typing 3s steps(32, end) forwards,
+             removeCursor 0.3s linear 1.5s forwards;
 }
 
 /* typing animation */
 @keyframes typing {
   from { width: 0; }
-  to { width: 18%; }
+  to { width: 100%; }
 }
 
 /* remove cursor exactly at the end */
 @keyframes removeCursor {
   to {
+    /* border-right-color: transparent; */
     border-right: none;
+  }
+}
+
+/* Mobile responsiveness for typewriter */
+@media (max-width: 768px) {
+  .typewriter {
+    font-size: 20px;
   }
 }
 
